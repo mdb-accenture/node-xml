@@ -2,10 +2,10 @@ const fs = require('fs'),
   xml2js = require('xml2js'),
   { promisify } = require('util');
 
-const readFileAsync = promisify(fs.readFile);
-const transAsync = promisify(parser.parseString);
 const parser = new xml2js.Parser();
 const builder = new xml2js.Builder();
+const readFileAsync = promisify(fs.readFile);
+const transAsync = promisify(parser.parseString);
 
 // # ASYNC
 const xml2json = async (file) => {
