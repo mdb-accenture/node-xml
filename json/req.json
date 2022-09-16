@@ -1,0 +1,136 @@
+{
+  "VPMSMessage": {
+    "$": {
+      "xmlns": "http://www.generali.at/eai/2016/04/IPMSInterface.xsd"
+    },
+    "Header": [
+      {
+        "event": ["201"],
+        "date": ["2020-10-16T12:45:37.684+02:00"],
+        "corrId": ["FAAcbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"],
+        "requestId": ["1234567890001"],
+        "retry": ["false"],
+        "client": ["204"],
+        "userid": ["ESPsystemuser"],
+        "messageType": ["100"],
+        "carrier": ["14"]
+      }
+    ],
+    "Body": [
+      {
+        "Party": [
+          {
+            "tiparty": [
+              {
+                "PartyReference": ["1"],
+                "isMainParty": ["true"]
+              }
+            ],
+            "Customer": [
+              {
+                "dateOfBirthOrFoundationDate": ["19801010"],
+                "typeOfParty": ["1"],
+                "gender": ["001"],
+                "partyName": ["Spain"],
+                "firstName": ["Tester"]
+              }
+            ],
+            "MainAddress": [
+              {
+                "Address": [
+                  {
+                    "AddressReference": ["2"],
+                    "typeOfPostAddress": ["1"],
+                    "country": ["ES"],
+                    "zip": ["28020"],
+                    "city": ["Madrid"],
+                    "streetPoBox": ["Vitalitystreet"],
+                    "housenumber": ["1"]
+                  }
+                ]
+              }
+            ],
+            "Account": [
+              {
+                "BankAccount": [
+                  {
+                    "AccountReference": ["3"],
+                    "typeOfAbstractAccount": ["1"],
+                    "country": ["ES"],
+                    "iban": ["ES9121000418450200051332"],
+                    "sepaValidFrom": ["20201015"],
+                    "sepaState": ["002"]
+                  }
+                ]
+              }
+            ],
+            "PhoneFaxList": [
+              {
+                "PhoneFax": [
+                  {
+                    "PhoneFaxReference": ["4"],
+                    "callNumber": ["vitalityspain@gmail.com"],
+                    "communicationType": ["006"]
+                  }
+                ]
+              }
+            ],
+            "ProfileList": [
+              {
+                "Profile": [
+                  {
+                    "profileType": ["003"],
+                    "profileValue": ["001"]
+                  },
+                  {
+                    "profileType": ["007"],
+                    "profileValue": ["001"]
+                  },
+                  {
+                    "profileType": ["021"],
+                    "profileValue": ["001"]
+                  },
+                  {
+                    "profileType": ["024"],
+                    "profileValue": ["001"]
+                  },
+                  {
+                    "profileType": ["023"],
+                    "profileValue": ["001"]
+                  },
+                  {
+                    "profileType": ["022"],
+                    "profileValue": ["002"]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Membership": [
+          {
+            "agentID": ["123456"],
+            "paymentFrequency": ["6"],
+            "paymentMethod": ["26"],
+            "EntitlementRel": [
+              {
+                "entitlementRelId": ["ES0000001"],
+                "entitlementId": ["ES0000001"],
+                "stateExternal": ["6"]
+              }
+            ],
+            "Role": [
+              {
+                "RoleType": ["58"],
+                "Party": ["1"],
+                "Address": ["2"],
+                "EMail": ["4"],
+                "BankAccount": ["3"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

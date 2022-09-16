@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vpms:VPMSMessage xmlns:vpmsAppl="http://www.generali.at/eai/2012/07/VPMSApplication.xsd" xmlns:vpms="http://www.generali.at/eai/2016/04/IPMSInterface.xsd" xmlns:ns2="urn:VPMSActivationServiceTypes">
+    <vpms:Header>
+        <vpms:event>201</vpms:event>
+        <vpms:date>2020-10-16T18:51:18.758+02:00</vpms:date>
+        <vpms:corrId>FAAcbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</vpms:corrId>
+        <vpms:requestId>1234567890001</vpms:requestId>
+        <vpms:retry>false</vpms:retry>
+        <vpms:client>204</vpms:client>
+        <vpms:userid>ESPsystemuser</vpms:userid>
+        <vpms:messageType>200</vpms:messageType>
+        <vpms:carrier>14</vpms:carrier>
+    </vpms:Header>
+    <vpms:Acknowledge>
+        <vpms:rc>0</vpms:rc>
+        <vpms:error>0</vpms:error>
+        <vpms:msg/>
+    </vpms:Acknowledge>
+</vpms:VPMSMessage>

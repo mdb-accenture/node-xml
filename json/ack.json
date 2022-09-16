@@ -1,0 +1,29 @@
+{
+  "vpms:VPMSMessage": {
+    "$": {
+      "xmlns:vpmsAppl": "http://www.generali.at/eai/2012/07/VPMSApplication.xsd",
+      "xmlns:vpms": "http://www.generali.at/eai/2016/04/IPMSInterface.xsd",
+      "xmlns:ns2": "urn:VPMSActivationServiceTypes"
+    },
+    "vpms:Header": [
+      {
+        "vpms:event": ["201"],
+        "vpms:date": ["2020-10-16T18:51:18.758+02:00"],
+        "vpms:corrId": ["FAAcbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"],
+        "vpms:requestId": ["1234567890001"],
+        "vpms:retry": ["false"],
+        "vpms:client": ["204"],
+        "vpms:userid": ["ESPsystemuser"],
+        "vpms:messageType": ["200"],
+        "vpms:carrier": ["14"]
+      }
+    ],
+    "vpms:Acknowledge": [
+      {
+        "vpms:rc": ["0"],
+        "vpms:error": ["0"],
+        "vpms:msg": [""]
+      }
+    ]
+  }
+}
